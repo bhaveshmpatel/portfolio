@@ -50,7 +50,7 @@ export const ResumeCard = ({
             <AvatarImage
               src={logoUrl}
               alt={altText}
-              className="object-contain"
+              className={`object-contain ${href === "https://paruluniversity.ac.in/" ? "bg-black p-0.5" : ""}`}
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>

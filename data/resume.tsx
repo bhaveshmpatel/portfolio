@@ -10,8 +10,8 @@ export const DATA = {
   description:
 "Web3 Developer - building, learning, and sharing on X.",
   summary:
-"I’m a Web3-focused Full Stack Developer, currently building scalable SaaS and decentralized applications. With experience across multiple startups, 7+ hackathon wins, and grants, I love turning ideas into products that bridge Web2 and Web3. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
-avatarUrl: "/pfp.jpeg",
+"I’m a Web3-focused Full Stack Developer, passionate about building high-performance applications that bridge the gap between Web2 and Web3. With a deep understanding of core web technologies and blockchain architecture, I specialize in creating scalable, user-centric solutions—whether that’s engineering complex frontend systems from scratch or developing secure smart contracts on Solana."  ,
+avatarUrl: "/pfp.png",
   skills: [
     "React",
     "Next.js",
@@ -90,81 +90,7 @@ avatarUrl: "/pfp.jpeg",
   },
 
   work: [
-    {
-        company: "Skate Chain",
-        href: "https://www.skatechain.org/", // add company website if available
-        badges: ["Internship"],
-        location: "Remote, Singapore", 
-        title: "Blockchain Developer Intern",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQHf20XE0q8t7Q/company-logo_200_200/company-logo_200_200/0/1713448328113/range_protocol_logo?e=2147483647&v=beta&t=AXtRHD7wJdchNthoq5bfimGFcvi_g9DkwxEXcdouK0c", // add logo URL if available
-        start: "January 2025", // update with actual start date
-        end: "Present",
-        description:
-          "Working as a Blockchain Developer Intern, contributing to blockchain development and smart contract implementation.",
-      },
-    {
-      
-        company: "Pikme",
-        href: "https://pikme.app", // replace with actual if you have
-        badges: ["Internship"],
-        location: "Remote, San Francisco",
-        title: "Full Stack Developer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
-        start: "July 2025",
-        end: "October 2025",
-        description:
-          "Engineered single-player and multiplayer versions of Pikme from the ground up, serving 500+ active users. Boosted site performance by 40% through caching strategies, lazy loading, and frontend optimizations. Managed end-to-end deployment on AWS, including EC2, S3, and server configuration for 99.9% uptime."
-      },
-      
-      {
-        company: "Stealth Startup",
-        badges: ["Freelance"],
-        href: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Stealth-logo.svg/2048px-Stealth-logo.svg.png", // can add later if public
-        location: "Remote, Boston",
-        title: "Full Stack Blockchain Developer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQGUKsfjHB8RNQ/company-logo_100_100/company-logo_100_100/0/1735368022724/stealth_startup_51_logo?e=1761177600&v=beta&t=k9F16_cP8yiR9nW2677K8B6xW1CkS_VM3PhRbUN-yCQ", // placeholder, update if you have logo
-        start: "August 2025",
-        end: "October 2025",
-        description:
-          "Developed and deployed DAO governance smart contracts handling $50K+ in TVL with 100% test coverage and security audits. Built complete frontend interface with 95%+ user satisfaction and integrated smart contracts with both frontend and backend for seamless Web3 UX."
-      },      
-      {
-        company: "Euclid Protocol",
-        href: "https://www.euclidprotocol.io/", // add if there's a public link
-        badges: ["Internship"],
-        location: "Remote, Dubai",
-        title: "Full Stack Developer",
-        logoUrl: "https://pbs.twimg.com/profile_images/1787780246256726016/yaY-XoKg_400x400.jpg",
-        start: "May 2025",
-        end: "July 2025",
-        description:
-          "Developed EuclidAI reducing operational costs by 30% and processing 10K+ transactions. Designed and implemented EuclidMail, enabling 1K+ users to send crypto via email with 99.5% success rate. Collaborated with cross-functional teams to update EuclidSwap, increasing trading volume by 200%."
-      },
-      
-      {
-        company: "Solana Superteam",
-        href: "https://superteam.fun",
-        badges: ["Community Member & Builder"],
-        location: "Remote, India",
-        title: "Community Member & Builder",
-        logoUrl: "https://pbs.twimg.com/profile_images/1679100194028392448/4_3L1nRh_400x400.jpg", // placeholder, update if you have the logo
-        start: "March 2025",
-        end: "Present",
-        description:
-          "Active member of Solana Superteam contributing to the ecosystem through projects, hackathons, and developer initiatives. Awarded grants for building on Solana and collaborated with the community to ship impactful Web3 products."
-      },      
-      {
-        company: "Aiphi AI",
-        href: "https://aiphi.ai/", // add company site if you want
-        badges: ["Internship"],
-        location: "Bengaluru, Karnataka, India · Hybrid",
-        title: "Full Stack AI Engineer",
-        logoUrl: "https://aiphi.ai/wp-content/uploads/2024/01/1080P-Full-HD-2.png",
-        start: "February 2025",
-        end: "April 2025",
-        description:
-          "Worked as a Full Stack AI Engineer intern, contributing to AI-driven product development and end-to-end application features, combining backend systems with AI model integration."
-      },      
+         
   ],
   education: [
     {
@@ -176,30 +102,30 @@ avatarUrl: "/pfp.jpeg",
       end: "2027",
     },
   ],
-  pprojects: [
+  projects: [
     {
-      title: "Aura Protocol",
-      href: "https://auraprotocol.vercel.app/",
+      title: "Excalidraw",
+      href: "https://github.com/bhaveshmpatel/excalidraw",
       dates: "2025",
       active: true,
       description:
-        "Fast. Efficient. Revolutionary. Experience the future of blockchain with Aura - where speed meets innovation. Powered by Avalanche. A decentralized DeFi protocol offering cutting-edge financial solutions with unmatched security and efficiency.",
+        "Engineered a real-time collaborative whiteboard from scratch using the native HTML5 Canvas API, completely. I developed a custom rendering engine to handle geometry, collision detection, and multi-user synchronization, demonstrating deep control over browser performance and raw JavaScript logic.",
       technologies: [
         "Next.js",
         "TypeScript",
-        "Solidity",
-        "Avalanche",
-        "Web3",
+        "Node.js",
+        "WebSocket",
+        "Canvas APIs",
         "DeFi",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://auraprotocol.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/bhaveshmpatel/excalidraw",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/aura.png",
+      image: "/excalidraw.png",
       video: "",
     },
     {
@@ -223,109 +149,6 @@ avatarUrl: "/pfp.jpeg",
         },
       ],
       image: "/snap.png", // Add screenshot: "/snapchain.png" (place in /public folder) or use external URL
-      video: "", // Optional: Add demo video URL
-    },
-    {
-      title: "ForkYouDaddy",
-      href: "https://forkyoudaddy.vercel.app",
-      dates: "2025",
-      active: true,
-      description:
-        "Web3 application for creating, remixing, and licensing creative IP with 100+ registered works and $5K+ in licensing revenue. Creators register original works onchain, others fork with attribution, and licenses define usage and monetization.",
-      technologies: ["Next.js", "TypeScript", "Solidity", "Web3"],
-      links: [
-        {
-          type: "Website",
-          href: "https://forkyoudaddy.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/adityajha2005/forkyoudaddy",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      // image: "/fork.png",
-      image: "/fork.png", 
-      video: "", // Add screenshot: "/forkyoudaddy.png" (place in /public folder) or use external URL
-    },
-    {
-      title: "MEMEFI",
-      href: "https://memefi-platform.vercel.app",
-      dates: "2025",
-      active: true,
-      description:
-        "Launched MEMEFI – a gamified meme staking platform with 50+ active users and $1K+ in staked value. Users upload memes, stake them, and earn rewards based on engagement. Integrated wallet abstraction achieving 90%+ user retention.",
-      technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "Solidity (BNB Chain)",
-        "Node.js",
-        "MongoDB",
-        "IPFS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://memefi-platform.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/adityajha2005/memefi-platform",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/image.png", // Add screenshot: "/memefi.png" (place in /public folder) or use external URL
-      video: "", // Optional: Add demo video URL
-    },
-    {
-      title: "Capsulr",
-      href: "https://t-ime-capsule-monad.vercel.app",
-      dates: "2025",
-      active: true,
-      description:
-        "Decentralized time capsule application on Monad testnet with 50+ stored memories and 99%+ data integrity. Users store and retrieve memories on-chain with timestamp verification and privacy controls.",
-      technologies: ["Next.js", "TypeScript", "Solidity", "Monad Blockchain"],
-      links: [
-        {
-          type: "Website",
-          href: "https://t-ime-capsule-monad.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/adityajha2005/TImeCapsuleMONAD",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/capsulr.png", // Add screenshot: "/capsulr.png" (place in /public folder) or use external URL
-      video: "", // Optional: Add demo video URL
-    },
-    {
-      title: "OnlyNerds",
-      href: "https://onlynerds-rose.vercel.app/",
-      dates: "2025",
-      active: true,
-      description:
-        "🎓 Fork courses. 🤖 Learn with AI agents. 🧬 Earn dynamic skill NFTs. Say goodbye to scammy LMSs and corporate BS. Only Nerds is for builders, creators, and autodidacts who learn by doing. The first decentralized learning platform where you can learn, create, fork courses, and earn NFTs.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Solidity",
-        "Web3",
-        "AI Agents",
-        "NFTs",
-        "IPFS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://onlynerds-rose.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/onlynerds.png", // Add screenshot: "/onlynerds.png" (place in /public folder) or use external URL
       video: "", // Optional: Add demo video URL
     },
     
