@@ -5,13 +5,6 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -25,17 +18,8 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
-              <BlurFadeText
-                className="max-w-150 md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
+              <BlurFadeText delay={BLUR_FADE_DELAY} className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none" yOffset={8} text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`} />
+              <BlurFadeText className="max-w-150 md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -67,10 +51,8 @@ export default function Page() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 5}>
           <div className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-            <Markdown>
-              {DATA.summary}
-            </Markdown>
-          </div> 
+            <Markdown>{DATA.summary}</Markdown>
+          </div>
         </BlurFade>
       </section>
       {/* <section id="services">
@@ -133,10 +115,7 @@ export default function Page() {
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
-            <BlurFade
-              key={education.school}
-              delay={BLUR_FADE_DELAY * 11 + id * 0.05}
-            >
+            <BlurFade key={education.school} delay={BLUR_FADE_DELAY * 11 + id * 0.05}>
               <ResumeCard
                 key={education.school}
                 href={education.href}
@@ -169,26 +148,17 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
-                </h2>
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">My Projects</div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Check out my latest work</h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
                 </p>
               </div>
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-200 mx-auto">
             {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-              >
+              <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
                 <ProjectCard
                   href={project.href}
                   key={project.title}
@@ -209,39 +179,20 @@ export default function Page() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-4">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Freelance & Collaboration
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Ready to Build Something Great?
-              </h2>
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">Freelance & Collaboration</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Build Something Great?</h2>
               <p className="mx-auto max-w-150 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I&apos;m available for freelance projects, consulting, and
-                collaborations. Whether you need a Web3 dApp, a full-stack
-                application, or smart contract development, let&apos;s discuss
-                how I can help bring your vision to life.
+                I&apos;m available for freelance projects, consulting, and collaborations. Whether you need a Web3 dApp, a full-stack application, or smart contract development, let&apos;s discuss how
+                I can help bring your vision to life.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-4">
                 <Button asChild size="lg" className="w-full sm:w-auto">
-                  <Link
-                    href="https://cal.com/bhaveshpatel/15min"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <Link href="https://cal.com/bhaveshpatel/15min" target="_blank" rel="noopener noreferrer">
                     Book a Free Consultation
                   </Link>
                 </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  size="lg"
-                  className="w-full sm:w-auto"
-                >
-                  <Link
-                    href={`mailto:${DATA.contact.email}?subject=Freelance Project Inquiry`}
-                  >
-                    Send an Email
-                  </Link>
+                <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+                  <Link href={`mailto:${DATA.contact.email}?subject=Freelance Project Inquiry`}>Send an Email</Link>
                 </Button>
               </div>
             </div>

@@ -7,7 +7,7 @@ const Card = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(
       ref={ref}
       data-slot="card"
       // KEPT EXACT: No border or shadow added unless passed via className
-      className={cn("rounded-lg bg-card text-card-foreground", className)}
+      className={cn("rounded-lg text-card-foreground", className)}
       {...props}
     />
   )
