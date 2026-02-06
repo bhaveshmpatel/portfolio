@@ -181,8 +181,8 @@ export default function Page() {
             <div className="space-y-4">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">Freelance & Collaboration</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Build Something Great?</h2>
-              <p className="mx-auto max-w-150 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I&apos;m available for freelance projects, consulting, and collaborations. Whether you need a Web3 dApp, a full-stack application, or smart contract development, let&apos;s discuss how
+              <p className="mx-auto max-w-150 text-muted-foreground tracking-wide md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                I&apos;m available for freelance projects, and collaborations. Whether you need a robust full-stack application or a high-converting landing page, let&apos;s discuss how
                 I can help bring your vision to life.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-4">
@@ -192,7 +192,11 @@ export default function Page() {
                   </Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Link href={`mailto:${DATA.contact.email}?subject=Freelance Project Inquiry`}>Send an Email</Link>
+                  <a
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${DATA.contact.email}&su=Freelance%20Project%20Inquiry`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >Send an Email</a>
                 </Button>
               </div>
             </div>
