@@ -95,6 +95,29 @@ avatarUrl: "/pfp.png",
   ],
   projects: [
     {
+      title: "Solana Voting dApp",
+      href: "https://vote.bhaveshpatel.xyz/",
+      dates: "2026",
+      active: true,
+      description:
+      "Developed a decentralized governance platform on the Solana blockchain that enables secure, transparent, and verifiable voting. Built custom Anchor programs to manage voter registration, proposal creation, and automated treasury distribution, ensuring high-speed execution and low transaction costs.",
+      technologies: ["Solana", "Anchor", "Rust", "Web3.js", "TypeScript", "JavaScript", "React.js", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://vote.bhaveshpatel.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/bhaveshmpatel/voting_dapp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/vote.png", // Add screenshot: "/snapchain.png" (place in /public folder) or use external URL
+      video: "", // Optional: Add demo video URL
+    },
+    {
       title: "Excalidraw",
       href: "https://github.com/bhaveshmpatel/excalidraw",
       dates: "2025",
@@ -118,24 +141,6 @@ avatarUrl: "/pfp.png",
       ],
       image: "/excalidraw.png",
       video: "",
-    },
-    {
-      title: "SolLaunch",
-      href: "https://github.com/bhaveshmpatel/SolLaunch",
-      dates: "2025",
-      active: true,
-      description:
-        "SolLaunch A user-friendly No-Code token launchpad for the Solana network. I designed this platform to lower the barrier to entry for creators, allowing them to deploy custom SPL tokens in seconds. The application handles complex on-chain interactions—such as minting, metadata uploading, and authority revocation—abstracting them behind an intuitive React-based interface.",
-      technologies: ["Next.js", "TypeScript", "Tailwind", "Solana Cli", "Web3.js"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/bhaveshmpatel/SolLaunch",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/sollaunch.png", // Add screenshot: "/snapchain.png" (place in /public folder) or use external URL
-      video: "", // Optional: Add demo video URL
     },
     {
       title: "GeoGrade",

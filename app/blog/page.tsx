@@ -6,5 +6,5 @@ export const metadata = {
 };
 
 export default function BlogPage() {
-  redirect("https://bhaveshpatel.xyz");
+  redirect("https://www.bhaveshpatel.xyz");
 }
